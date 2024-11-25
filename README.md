@@ -5,19 +5,6 @@ This repo contains the sample application for containerising Django app with Pos
 
 Notice: This sample repo is intended to support a blog post published in the official Docker blogging site. As such, the application code is purposely kept simple to keep the focus on the guide's content and should not be considered production-ready.
 
-## Project Structure
-[Describe the directory structure of the project repository]
-
-- **app/** - The main "app" of the project. It listens to events on a Kafka topic and logs them.
-- **frontend/** - Contains the frontend part of the application.
-- **backend/** - Contains the backend part of the application.
-- **database/** - Contains database configuration and scripts.
-
-## Setup Instructions
-
-[Provide clear setup instructions here]
-
-
 ### 1. Clone the repository
 
  ```bash
@@ -31,7 +18,7 @@ Notice: This sample repo is intended to support a blog post published in the off
 cd django-postgres-docker
 ```
 
-## Bring up the application
+## 3. Bring up the application
 
 ```
 docker compose up --build
