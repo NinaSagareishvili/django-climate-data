@@ -25,6 +25,9 @@ docker compose up --build
 ``` 
 
 
+This command will download any necessary Docker images, build the project, and start the containers. 
+Once complete, your Django application should be accessible at `http://localhost:8000`.
+
 
 
 ## Maintenance Schedule
