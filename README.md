@@ -18,7 +18,23 @@ Notice: This sample repo is intended to support a blog post published in the off
 cd django-postgres-docker
 ```
 
-## 3. Bring up the application
+## 3. Create an .env file
+
+```
+```bash
+DJANGO_SECRET_KEY=your_secret_key
+DEBUG=True
+DJANGO_LOGLEVEL=info
+DJANGO_ALLOWED_HOSTS=localhost
+DATABASE_ENGINE=postgresql_psycopg2
+DATABASE_NAME=dockerdjango
+DATABASE_USERNAME=dbuser
+DATABASE_PASSWORD=dbpassword
+DATABASE_HOST=db
+DATABASE_PORT=5432
+```
+
+## 4. Bring up the application
 
 ```
 docker compose up --build
