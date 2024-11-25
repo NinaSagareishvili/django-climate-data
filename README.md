@@ -47,7 +47,7 @@ Once complete, your Django application should be accessible at `http://localhost
 
 
 ## Maintenance Schedule
-This repo is maintained [frequency]. For any security updates, note that there may be delays in applying recent fixes.
+This repo is maintained frequently. For any security updates, note that there may be delays in applying recent fixes.
 
 ## License
 This project is licensed under the [Apache 2.0 License](/LICENSE).
