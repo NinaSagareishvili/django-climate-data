@@ -20,8 +20,8 @@ cd django-postgres-docker
 
 ## 3. Create an .env file
 
+
 ```
-```bash
 DJANGO_SECRET_KEY=your_secret_key
 DEBUG=True
 DJANGO_LOGLEVEL=info
