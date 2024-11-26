@@ -37,11 +37,15 @@ DATABASE_PORT=5432
 ## 4. Bring up the application
 
 ```
-docker compose up --build
-``` 
-
+docker compose up -d --build
+```
 
 This command will download any necessary Docker images, build the project, and start the containers. 
+
+<img width="584" alt="image" src="https://github.com/user-attachments/assets/09745514-7bac-4f19-9113-9025cc3bd739">
+
+
+
 Once complete, your Django application should be accessible at `http://localhost:8000`.
 
 <img width="993" alt="image" src="https://github.com/user-attachments/assets/583b2085-0e8d-4871-b493-e9726d0a44da">
